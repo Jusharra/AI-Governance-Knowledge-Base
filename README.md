@@ -212,7 +212,7 @@ Then choose:
 
 ---
 
-## 🌐 Adding a New Namespace (Partner Onboarding)
+## 🌐 Adding a New Namespace
 
 To onboard a new partner:
 
@@ -226,7 +226,7 @@ ix.describe_index_stats()
 2. Run ingest with:
 
 ```bash
-PINECONE_NAMESPACE=partner123 python scripts/ingest_pinecone.py
+PINECONE_NAMESPACE=devops python scripts/ingest_pinecone.py
 ```
 
 3. Pass namespace through `main.py` when querying.
@@ -279,6 +279,14 @@ Assistant returns:
 * JSON-structured output
 
 ---
+• “Which control covers X?”
+• “Where is MFA mentioned?”
+• “What evidence applies to CC6.6?”
+• “What does NIST require for AI risk?”
+• “Where does ISO-42001 mention governance?”
+• “Show evidence for CC6.6 in the 2025 Q1 AWS assessment.”
+• "Compare CC6.6 between Q3 and Q4 assessments.”
+
 
 ## 🛡️ Security Posture
 
@@ -294,5 +302,5 @@ Assistant returns:
 
 **Demo-ready**, **CISO-ready**, and **audit-ready** at:
 
-Streamlit:https://ai-governance-knowledge-base.streamlit.app/
-Notion: https://www.notion.so/Project-12-AI-Governance-Knowledge-Base-RAG-Agent-for-Policies-Controls-2a9f54e7005c80219187e30e2d31eb75?source=copy_link
+• Streamlit:https://ai-governance-knowledge-base.streamlit.app/
+• Notion: https://www.notion.so/Project-12-AI-Governance-Knowledge-Base-RAG-Agent-for-Policies-Controls-2a9f54e7005c80219187e30e2d31eb75?source=copy_link
