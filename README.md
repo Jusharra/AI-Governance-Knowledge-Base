@@ -292,11 +292,7 @@ Assistant returns:
 
 ## 🏁 Status
 
-You are now **demo-ready**, **CISO-ready**, and **audit-ready** with:
+**Demo-ready**, **CISO-ready**, and **audit-ready** at:
 
-* A hybrid RAG + MCP intelligence system
-* A knowledge base grounded in real frameworks
-* Evidence-aware audit logging
-* Multi-tenant namespace onboarding
-* MCP Assistant integration
-* Streamlit UI with agent switching
+Streamlit:https://ai-governance-knowledge-base.streamlit.app/
+Notion: https://www.notion.so/Project-12-AI-Governance-Knowledge-Base-RAG-Agent-for-Policies-Controls-2a9f54e7005c80219187e30e2d31eb75?source=copy_link
