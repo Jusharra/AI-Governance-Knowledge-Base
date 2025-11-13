@@ -2,6 +2,7 @@ import os, json, streamlit as st
 import sys
 from pathlib import Path
 from dotenv import load_dotenv
+import streamlit as st
 from retriever import Retriever
 from guardrails import sanitize_query
 from governance import check_model_governance
@@ -13,7 +14,11 @@ from langchain_mcp_adapters.client import MultiServerMCPClient
 from langgraph.prebuilt import create_react_agent
 from langchain_anthropic import ChatAnthropic
 
-
+if hasattr(st, "secrets"):
+    for key, val in st.secrets.items():
+        # Only map simple values; skip nested sections
+        if isinstance(val, (str, int, float, bool)):
+            os.environ.setdefault(key, str(val))
 
 
 # Try repo-root/.env first, then walk up from CWD as a fallback
