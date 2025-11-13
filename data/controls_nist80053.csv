@@ -1,0 +1,3 @@
+control_id,framework,title,text
+IA-2,NIST800-53,Identification and Authentication,"MFA is implemented; unique user ID; replay resistance."
+AC-2,NIST800-53,Account Management,"Provisioning, review, and removal of accounts."

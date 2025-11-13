@@ -1,0 +1,3 @@
+control_id,framework,title,text
+CC6.6,SOC2,Logical Access Reviews,"Organizations review access rights at least quarterly; MFA enforced on privileged accounts."
+CC6.1,SOC2,Access Controls,"User access is authorized, authenticated, and appropriate."

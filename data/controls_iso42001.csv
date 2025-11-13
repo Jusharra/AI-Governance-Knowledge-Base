@@ -1,0 +1,3 @@
+control_id,framework,title,text
+ORG-Policy,ISO42001,AI Governance Policy,"Define AI use cases, risk classification, and oversight mechanisms."
+SEC-Prompt,ISO42001,Prompt Security,"Define controls against data exfiltration and prompt injection."

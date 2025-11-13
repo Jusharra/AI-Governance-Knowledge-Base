@@ -1,0 +1,10 @@
+allow_models:
+  embedding: ["amazon.titan-embed-text-v2:0", "local"]
+  llm: ["anthropic.claude-3-5-sonnet-20241022-v2:0", "local"]
+allow_regions: ["us-east-1","us-west-2"]
+log_prompts: true
+mask_pii_output: true
+retain_chat_days: 90
+deny_content:
+  - "exfiltrate secrets"
+  - "disable guardrails"

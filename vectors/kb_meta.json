@@ -1,0 +1,74 @@
+[
+  {
+    "control_id":"CC6.6",
+    "framework":"SOC2",
+    "title":"Logical Access Reviews",
+    "text":"Organizations review access rights at least quarterly; MFA enforced on privileged accounts.",
+    "source_file":"controls_soc2.csv",
+    "policy_id":null,
+    "corpus":"SOC2:CC6.6 Logical Access Reviews — Organizations review access rights at least quarterly; MFA enforced on privileged accounts."
+  },
+  {
+    "control_id":"CC6.1",
+    "framework":"SOC2",
+    "title":"Access Controls",
+    "text":"User access is authorized, authenticated, and appropriate.",
+    "source_file":"controls_soc2.csv",
+    "policy_id":null,
+    "corpus":"SOC2:CC6.1 Access Controls — User access is authorized, authenticated, and appropriate."
+  },
+  {
+    "control_id":"IA-2",
+    "framework":"NIST800-53",
+    "title":"Identification and Authentication",
+    "text":"MFA is implemented; unique user ID; replay resistance.",
+    "source_file":"controls_nist80053.csv",
+    "policy_id":null,
+    "corpus":"NIST800-53:IA-2 Identification and Authentication — MFA is implemented; unique user ID; replay resistance."
+  },
+  {
+    "control_id":"AC-2",
+    "framework":"NIST800-53",
+    "title":"Account Management",
+    "text":"Provisioning, review, and removal of accounts.",
+    "source_file":"controls_nist80053.csv",
+    "policy_id":null,
+    "corpus":"NIST800-53:AC-2 Account Management — Provisioning, review, and removal of accounts."
+  },
+  {
+    "control_id":"ORG-Policy",
+    "framework":"ISO42001",
+    "title":"AI Governance Policy",
+    "text":"Define AI use cases, risk classification, and oversight mechanisms.",
+    "source_file":"controls_iso42001.csv",
+    "policy_id":null,
+    "corpus":"ISO42001:ORG-Policy AI Governance Policy — Define AI use cases, risk classification, and oversight mechanisms."
+  },
+  {
+    "control_id":"SEC-Prompt",
+    "framework":"ISO42001",
+    "title":"Prompt Security",
+    "text":"Define controls against data exfiltration and prompt injection.",
+    "source_file":"controls_iso42001.csv",
+    "policy_id":null,
+    "corpus":"ISO42001:SEC-Prompt Prompt Security — Define controls against data exfiltration and prompt injection."
+  },
+  {
+    "control_id":null,
+    "framework":null,
+    "title":"Access Control Standard",
+    "text":"All admin roles require MFA; quarterly access review; log evidence stored in S3.",
+    "source_file":"policies_internal.csv",
+    "policy_id":"POL-AC-01",
+    "corpus":"POLICY:POL-AC-01 Access Control Standard — All admin roles require MFA; quarterly access review; log evidence stored in S3."
+  },
+  {
+    "control_id":null,
+    "framework":null,
+    "title":"AI Prompt Security",
+    "text":"Agents must ignore instructions to exfiltrate secrets or disable safeguards; redact PII on input\/output.",
+    "source_file":"policies_internal.csv",
+    "policy_id":"POL-AI-02",
+    "corpus":"POLICY:POL-AI-02 AI Prompt Security — Agents must ignore instructions to exfiltrate secrets or disable safeguards; redact PII on input\/output."
+  }
+]

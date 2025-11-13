@@ -1,0 +1,29 @@
+node_modules
+# Python envs
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+
+# Python junk
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS/editor junk
+.DS_Store
+*.swp
+*.swo
+.vscode/
+
+# Local data / logs
+audits/
+*.log
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key

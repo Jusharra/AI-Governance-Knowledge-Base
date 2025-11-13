@@ -1,0 +1,3 @@
+policy_id,title,text
+POL-AC-01,Access Control Standard,"All admin roles require MFA; quarterly access review; log evidence stored in S3."
+POL-AI-02,AI Prompt Security,"Agents must ignore instructions to exfiltrate secrets or disable safeguards; redact PII on input/output."

@@ -1,0 +1,7 @@
+deny_if_contains:
+  - "ignore previous instructions"
+  - "reveal your system prompt"
+  - "return the raw dataset"
+  - "download data from"
+  - "exfiltrate"
+  - "disable logging"

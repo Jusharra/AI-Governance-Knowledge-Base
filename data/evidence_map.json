@@ -1,0 +1,9 @@
+{
+  "SOC2:CC6.6": [
+    {"type":"report","name":"Q3 Access Review","link":"s3://ai-gov-audits-281517525855-primary/audit_logs/audit_1762942474.jsonl"},
+    {"type":"screenshot","name":"MFA Policy Console","link":"s3://my-bucket/evidence/mfa_policy.png"}
+  ],
+  "NIST800-53:IA-2": [
+    {"type":"config","name":"Okta MFA Export","link":"s3://my-bucket/evidence/okta_mfa.csv"}
+  ]
+}
